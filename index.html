@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You've Received a Message</title>
+
+    <!-- Google Fonts for a professional look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- The .scene container creates the 3D perspective for the flip effect -->
+    <div class="scene">
+        <!-- The .card element is what will actually perform the flip animation -->
+        <div class="card" id="card">
+            
+            <!-- Front of the card (initially visible) -->
+            <div class="card-face card-front">
+                <h1 class="front-header">A Secret Awaits You</h1>
+                <div class="envelope-icon">✉️</div>
+                <p class="front-text">A special message has been securely delivered.</p>
+                <button id="reveal-button">Open Your Message</button>
+            </div>
+            
+            <!-- Back of the card (initially hidden) -->
+            <div class="card-face card-back">
+                <div class="prank-content">
+                    <h2 id="prank-text-1"></h2>
+                    <div id="animation-container"></div>
+                    <h3 id="prank-text-2"></h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
