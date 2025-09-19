@@ -16,7 +16,7 @@ revealButton.addEventListener('click', () => {
     //    We do this now so they are ready to be animated.
     prankText1.textContent = "TUM PAGAL HO!";
     animationContainer.innerHTML = '🧠<br>👇<br>🦵';
-    prankText2.textContent = "Tumara Dimag Ghutno Mein Hai! Earth 🌎";
+    prankText2.textContent = "Tumara Dimag Ghutno Mein Hai! Kusum 😊";
 
     // 3. Add the 'visible' class to each prank element. The CSS handles
     //    the staggered animation delay, so we can add the class to all
